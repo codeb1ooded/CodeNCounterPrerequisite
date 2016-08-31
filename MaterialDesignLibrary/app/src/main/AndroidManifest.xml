@@ -18,7 +18,10 @@
         <activity android:name=".ProgressActivity" />
         <activity android:name=".ButtonsActivity" />
         <activity android:name=".SwitchActivity" />
-        <activity android:name=".WidgetActivity"></activity>
+        <activity android:name=".WidgetActivity" />
+        <activity android:name=".ExpandableTextView" />
+        <activity android:name=".TextViewExpandable" />
+        <activity android:name=".CircularFloatingActionButton"></activity>
     </application>
 
 </manifest>

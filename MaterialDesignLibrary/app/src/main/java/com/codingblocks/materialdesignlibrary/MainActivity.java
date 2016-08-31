@@ -14,12 +14,14 @@ import android.os.Bundle;
 import android.view.View;
 import android.view.Window;
 import android.view.View.OnClickListener;
+import android.widget.TextView;
 
 
 public class MainActivity extends Activity implements OnColorSelectedListener {
 
     int backgroundColor = Color.parseColor("#1E88E5");
     ButtonFloatSmall buttonSelectColor;
+    TextView expandable_tv;
 
     @SuppressLint("NewApi")
     @Override
@@ -90,6 +92,16 @@ public class MainActivity extends Activity implements OnColorSelectedListener {
             public void onClick(View arg0) {
                 Intent intent = new Intent(MainActivity.this, WidgetActivity.class);
                 intent.putExtra("BACKGROUND", backgroundColor);
+                startActivity(intent);
+            }
+        });
+
+        expandable_tv = (TextView) findViewById(R.id.ExpandTextView);
+        expandable_tv.setOnClickListener(new OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent();
+                intent.setClass(MainActivity.this, TextViewExpandable.class);
                 startActivity(intent);
             }
         });

@@ -151,4 +151,13 @@
             android:layout_marginLeft="104dp"
             android:text="Widgets" />
     </com.gc.materialdesign.views.LayoutRipple>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ExpandTextView"
+        android:text="Click here for expandable text view"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="380dp"
+        android:textSize="20dp"/>
 </RelativeLayout>

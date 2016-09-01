@@ -18,6 +18,8 @@ import android.widget.Toast;
 
 public class MainActivity extends Activity {
 
+    // Android code to upload file onto server
+
     TextView messageText;
     Button uploadButton;
     int serverResponseCode = 0;

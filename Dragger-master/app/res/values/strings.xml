@@ -1,0 +1,17 @@
+<resources>
+  <string name="app_name">Dragger</string>
+  <string name="hi">Hi!</string>
+
+  <string-array name="home">
+    <item>Open left</item>
+    <item>Open right</item>
+    <item>Open top</item>
+    <item>Open bottom</item>
+    <item>Open panel</item>
+    <item>Open activity</item>
+    <item>EditText</item>
+    <item>Activity List</item>
+    <item>Lazy</item>
+  </string-array>
+
+</resources>
